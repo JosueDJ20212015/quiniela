@@ -1,12 +1,12 @@
 # .NET
-api/**/bin/
-api/**/obj/
-api/**/*.user
+quinela-bk/**/bin/
+quinela-bk/**/obj/
+quinela-bk/**/*.user
 
 # Node / Next.js
-web/node_modules/
-web/.next/
-web/.env.local
+quinela-ft/node_modules/
+quinela-ft/.next/
+quinela-ft/.env.local
 
 # Sistema
 .DS_Store

@@ -1,8 +1,5 @@
 # Notas de esta instancia (Mundial 2026)
 
-Este proyecto fue heredado de un desarrollo en conjunto. Este archivo documenta
-ajustes manuales hechos directo en producción que NO están reflejados en el código,
-para no perderlos si se reutiliza el proyecto en un futuro torneo.
 
 ## Fixes aplicados directo en la base de datos (no en código)
 
