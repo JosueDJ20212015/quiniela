@@ -3,7 +3,7 @@
 Plataforma web de quinielas deportivas (predicción de resultados de torneos por
 eliminatoria/grupos), con ranking de participantes y cálculo automático de puntos.
 
-Este proyecto nació para el Mundial 2026, pero está pensado para reutilizarse en
+Este proyecto se utilizón para el Mundial 2026, pero está pensado para reutilizarse en
 futuros torneos (otro Mundial, Champions League, Copa América, etc.), ajustando
 la estructura del cuadro de eliminatoria y los datos de equipos/grupos.
 
@@ -40,7 +40,7 @@ quiniela/
 
 ## Adaptar a un torneo nuevo
 
-El cuadro de eliminatoria está definido en un JSON embebido en el backend
+El cuadro de eliminatoria está definido en un JSON en el backend
 (`BracketMundial2026.json`), con la estructura oficial de un Mundial de 48 equipos
 (dieciseisavos, octavos, cuartos, semis, tercer puesto, final). Para un torneo con
 otro formato, hay que:
@@ -60,7 +60,7 @@ de código antes de reutilizar el proyecto.
   comprimido y subido a Google Drive con `rclone`. Requiere `rclone.conf`
   configurado en el servidor (no incluido en este repo).
 
-## ⚠️ Nota de seguridad
+## Nota
 
 Este repositorio incluye un `.env` con credenciales reales de la instancia original
 (servidor ya dado de baja). Si se reutiliza este proyecto, generar credenciales
